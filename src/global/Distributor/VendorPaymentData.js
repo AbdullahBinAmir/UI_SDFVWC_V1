@@ -1,0 +1,60 @@
+export const vPaymentVD=[
+    {
+        payVD:1,
+        totalAmountRemaining:200000,
+        totalCreditTaken:700000,
+        distributorDetails:{
+            uid:1,
+            uname:'Usama Bilal',
+            uemail:'BILALOSAMA8@GMAIL.COM',
+            umobileno:'03168967345',
+            ucity:'Rawalpindi',
+            userType:'vendor',
+            distributionStatus:'approved',
+            securityAmountPaid:'200000',
+            distributorAddress:'105 Range Road',
+            uimage:'https://images.unsplash.com/photo-1621592484082-2d05b1290d7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8amV1bmVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80'
+        },
+        paymentHistory:[
+            {
+                payId:1,
+                amountPaid:300000,
+                payDate:'8/6/2022',
+            },
+            {
+                payId:2,
+                amountPaid:200000,
+                payDate:'18/6/2022',
+            }
+        ]
+    },
+    {
+        payVD:2,
+        totalAmountRemaining:600000,
+        totalCreditTaken:7950000,
+        distributorDetails:{
+            uid:2,
+            uname:'Muhammad Mateen',
+            uemail:'Mateen20022@GMAIL.COM',
+            umobileno:'03168967345',
+            ucity:'Rawalpindi',
+            userType:'vendor',
+            distributionStatus:'approved',
+            securityAmountPaid:'200000',
+            distributorAddress:'202 AbuZar Street',
+            uimage:'https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/320400/320448.png'
+        },
+        paymentHistory:[
+            {
+                payId:1,
+                amountPaid:150000,
+                payDate:'8/6/2022',
+            },
+            {
+                payId:2,
+                amountPaid:200000,
+                payDate:'27/6/2022',
+            }
+        ]
+    }
+]

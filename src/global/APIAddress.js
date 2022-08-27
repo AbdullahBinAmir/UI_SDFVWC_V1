@@ -1,0 +1,1 @@
+export const globalAPI='http://192.168.1.104/StockDeliveryVendorCredit_APIS/api'
